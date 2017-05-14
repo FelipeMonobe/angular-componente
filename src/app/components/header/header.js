@@ -2,9 +2,8 @@
   'use strict';
 
   angular
-    .module('videosBandClient')
+    .module('angularComponente')
     .component('headerDefault', {
-    	templateUrl: 'app/components/header/header.html'
+      templateUrl: 'app/components/header/header.html'
     });
-
 })();

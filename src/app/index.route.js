@@ -10,11 +10,20 @@
       .when('/', {
         templateUrl: 'app/main/main.html',
         controller: 'MainController',
-        controllerAs: 'main'
+        controllerAs: 'main',
+      })
+      .when('/verde', {
+        templateUrl: 'app/verde/verde.html',
+        controller: 'VerdeController',
+        controllerAs: 'verde',
+      })
+      .when('/vermelho', {
+        templateUrl: 'app/vermelho/vermelho.html',
+        controller: 'VermelhoController',
+        controllerAs: 'vermelho',
       })
       .otherwise({
         redirectTo: '/'
       });
   }
-
 })();
